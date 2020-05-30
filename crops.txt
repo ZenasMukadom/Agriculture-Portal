@@ -1,0 +1,33 @@
+Arecanut': 1577,
+ 'Rice': 15104,
+ 'Banana': 3209,
+ 'Cashewnut': 1081,
+ 'Coconut ': 1985,
+ 'Dry ginger': 3008,
+ 'Sugarcane': 7921,
+ 'Sweet potato': 4198,
+ 'Dry chillies': 6489,
+ 'Turmeric': 4202,
+ 'Maize': 13947,
+ 'Moong(Green Gram)': 10318,
+ 'Groundnut': 8834,
+ 'Sunflower': 5571,
+ 'Bajra': 5427,
+ 'Cotton(lint)': 4518,
+ 'Horse-gram': 3902,
+ 'Jowar': 7065,
+ 'Ragi': 4145,
+ 'Tobacco': 2698,
+ 'Gram': 7361,
+ 'Wheat': 7899,
+ 'Sesamum': 9046,
+ 'Onion': 7012,
+ 'Coriander': 3369,
+ 'Potato': 6931,
+ 'Soyabean': 3212,
+
+
+jo number hai crop ke sath, vo crop utna time aaya hai dataset me.
+
+tuje konsa bhi crop chaheye vo daal de jiska bhi data mil raha hoga .
+Atleast 15 to 20 crops daal isme se online shopping me.

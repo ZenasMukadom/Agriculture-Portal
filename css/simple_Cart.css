@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2018, 7:13:45 PM
+    Author     : Sirisha
+*/
+
+body{
+    margin: 0;
+    background: #fff;
+    font-family: 'Yantramanav', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    //font-family: 'Berkshire Swash', sans-serif;
+    font-family: 'Muli', sans-serif;
+}
+
+.page-heading{
+    text-align: center;
+    padding: 1rem;
+}
+/*Cart*/
+#cart{
+    margin-top: 2rem;
+}
+.cart-grid  {
+    //height: calc(100vh - 190px);
+    position: fixed;
+}
+.cart-heading{
+    display: flex;
+    background: #E54C33 !important;
+    color: #fff !important;
+}
+.cart-body{
+    text-align: center;
+}
+.cart-summary-container{
+    width: 27rem;
+    border-top: 1px solid hsla(0,0%,59%,.16);
+}
+.cart-total-amount{
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    border-top: 1px solid hsla(0,0%,59%,.16);
+    border-bottom: 1px solid hsla(0,0%,59%,.16);
+}
+.cart-checkout{
+    cursor: pointer;
+    height: 6rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spacer{
+    flex-grow:1;
+    visibility: hidden;
+}
+
+.quantityContainer{
+    display: flex;
+    align-items: center;
+}
+.quantity{
+    width: 5rem;
+    height: 2rem;
+    margin: 0 .5rem;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+.quantity-am {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.name{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.cart-each-product {
+    display: flex;
+    color: #2d2d2d;
+    justify-content: space-between;
+    margin: 1rem 0 0 0;
+}
+
+/*//Cart*/
+
+/* Products */
+.product-container{
+    margin-top: 2rem;
+}
+.menu-item-container {
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.16);
+    position: relative;
+    margin: 1rem;
+}
+.item-name {
+    font-size: 1.4rem;
+    color: #6b412f;
+    letter-spacing: .42px;
+    font-weight: 700;
+    padding-bottom: .5rem;
+    padding-right: 1.7rem;
+}
+.item-price-container {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+}
+.nonveg{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 9;
+    color: red;
+}
+.veg{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 9;
+    color: #2baf2b;
+}

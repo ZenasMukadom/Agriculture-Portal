@@ -1,0 +1,15 @@
+Rice: 13
+Maize: 12
+Moong: 47
+Bajra: 14
+Cotton: 37
+Jowar: 17
+Ragi: 21
+Gram: 33
+Wheat:13
+Soyabean:25
+Arhar: 39
+Barley:11
+Jute:27
+Lentil:32
+Urad: 38
