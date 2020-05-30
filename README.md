@@ -161,7 +161,7 @@ $stripeDetails = array(
 
 ### Government Dashboard
 
-![](Screenshots/GovernmentDashboard.PNG.PNG)
+![](Screenshots/GovernmentDashboard.PNG)
 
 
 ### Production Approximator
@@ -174,3 +174,6 @@ $stripeDetails = array(
 ![](Screenshots/GovernmentFarmerDetails.PNG)
 
 
+### Multilingual support in Marathi
+
+![](Screenshots/FarmerDashboardinMarathi.PNG)
