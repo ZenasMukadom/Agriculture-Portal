@@ -1,11 +1,18 @@
 <?php
 session_start();
-if(isset($_SESSION['IS_LOGIN'])){
+ini_set('memory_limit', '-1');
+$userlogin=$_SESSION['farmer_login_user'];
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="agriculture_portal";
 
-}
-else{
-	header('index.php');
-	die();
+
+//Create Connection 
+$conn =mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
 <!DOCTYPE html>
